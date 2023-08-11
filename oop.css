@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+#display{
+    padding: 15px 30px;
+    margin: 20px auto;
+    background: #fd0707;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#display:hover{
+    background: #fff;
+    color: #fd0707;
+    border: 2px solid #fd0707;
+}
